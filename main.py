@@ -5,14 +5,9 @@ from random import randint
 from multiprocessing import Pool
 logging.basicConfig(format='%(asctime)s--%(levelname)s--%(message)s', level=logging.INFO)
 
-#自行通过 https://f0416.wonderfulday30.live/my.php?item=posts 查看是否回复成功
-#cookies只需要获取 CzG_auth 字段即可,如果不会获取自行百度 or 谷歌
-#编辑 number 设置回复次数
-#编辑 message 设置回复消息
-
 number=10
 message=['顶顶顶顶']
-cookies=['CzG_auth=8c012t8QeOuKwdUn0CyTTbSJy7lGdR%2BNrhmxi2SVGySeeKrSlMgH8Ok%2B%2BzaFLjIuq7wnGXgKMLrECX3%2FTOjD7VbXH3kg']
+cookies=['CzG_auth=']
 
 def reply(cookies,i):
     global number
