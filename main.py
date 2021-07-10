@@ -12,7 +12,7 @@ logging.basicConfig(format='%(asctime)s--%(levelname)s--%(message)s', level=logg
 
 number=10
 message=['顶顶顶顶']
-cookies=['CzG_auth=8c012t8QeOuKwdUn0CyTTbSJy7lGdR%2BNrhmxi2SVGySeeKrSlMgH8Ok%2B%2BzaFLjIuq7wnGXgKMLrECX3%2FTOjD7VbXH3kg','CzG_auth=253foW0whCGcqxtYdKfjE%2FpPuGgE2llaxMRKlVGzp5g8W8uNGqBCHi5zTo79CW5AOFVOgOjlyXiaqkVsAVG06vyDhEdn']
+cookies=['']
 
 def reply(cookies,i):
     global number
